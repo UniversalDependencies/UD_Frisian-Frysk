@@ -6,7 +6,7 @@
 3	is	wêze	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	5	cop	_	dutch=is
 4	tsien	tsien	NUM	TW|hoofd|prenom|stan	_	5	nummod	_	dutch=tien
 5	minuten	minút	NOUN	N|soort|mv|basis	Number=Plur	0	root	_	dutch=minuten
-6	foar	foar	ADP	VZ|fin	_	5	parataxis	_	dutch=voor
+6	foar	foar	ADP	VZ|fin	_	5	parataxis	_	SpaceAfter=No
 7	.	.	PUNCT	LET	_	6	punct	_	dutch=.
 
 # sent_id = 1879
