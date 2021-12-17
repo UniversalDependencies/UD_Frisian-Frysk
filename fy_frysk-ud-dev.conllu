@@ -31,7 +31,7 @@
 14	:	:	PUNCT	LET	_	15	punct	_	_
 15	allinne	allinne	ADV	BW	_	10	ccomp	_	_
 16	mar	mar	ADV	VG|neven	_	17	cc	_	_
-17	skaadplanten	skaadplant	NOUN	N|soort|mv|basis	Number=Plur	15	conj	_	SpaceAfter=No
+17	skaadplanten	skaadplant	NOUN	N|soort|mv|basis	Number=Plur	15	conj	_	_
 18	.	.	PUNCT	LET	_	15	punct	_	SpacesAfter=\n
 
 # sent_id = 2008
