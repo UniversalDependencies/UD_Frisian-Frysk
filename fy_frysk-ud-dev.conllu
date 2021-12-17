@@ -19,7 +19,7 @@
 2	himsels	himsels	PRON	VNW|refl|pron|obl|nadr|3|getal	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	nmod	_	_
 3	in	in	DET	LID|onbep|stan|agr	Definite=Ind	5	det	_	_
 4	moai	moai	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	5	amod	_	_
-5	putsje	put	NOUN	N|soort|ev|dim|onz|stan	Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+5	putsje	put	NOUN	N|soort|ev|dim|onz|stan	Gender=Neut|Number=Sing	0	root	_	
 6	,	,	PUNCT	LET	_	10	punct	_	_
 7	want	want	CCONJ	VG|neven	_	10	mark	_	_
 8	sa	sa	ADV	BW	_	9	advmod	_	_
