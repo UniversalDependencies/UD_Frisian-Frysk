@@ -73,7 +73,7 @@
 11	hie	hawwe	AUX	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	12	obj	_	_
 12	frege	freegje	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	3	conj	_	_
 13	er	er	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	12	nsubj	_	_
-14	al	al	ADV	BW	_	12	advmod	_	_
+14	al	al	ADV	BW	_	12	advmod	_	SpaceAfter=No
 15	:	:	PUNCT	LET	_	17	punct	_	_
 16	'	'	PUNCT	LET	_	17	punct	_	_
 17	Giest	gean	VERB	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	12	parataxis	_	_
@@ -83,7 +83,7 @@
 21	,	,	PUNCT	LET	_	24	punct	_	_
 22	nei	nei	ADP	VZ|init	_	24	case	_	_
 23	it	it	DET	LID|bep|stan|evon	Definite=Def	24	det	_	_
-24	strân	strân	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	17	nmod	_	_
+24	strân	strân	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
 25	?	?	PUNCT	LET	_	12	punct	_	SpaceAfter=No
 26	'	'	PUNCT	LET	_	3	punct	_	SpacesAfter=\n
 
