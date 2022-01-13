@@ -74,7 +74,7 @@
 12	frege	freegje	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	3	conj	_	_
 13	er	er	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	12	nsubj	_	_
 14	al	al	ADV	BW	_	12	advmod	_	SpaceAfter=No
-15	:	:	PUNCT	LET	_	17	punct	_	_
+15	:	:	PUNCT	LET	_	17	punct	_	SpaceAfter=No
 16	'	'	PUNCT	LET	_	17	punct	_	_
 17	Giest	gean	VERB	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	12	parataxis	_	_
 18	mei	mei	ADP	VZ|fin	_	17	fixed	_	_
