@@ -59,7 +59,7 @@
 
 # newdoc id = doc4
 # sent_id = 1157
-# text = Sûnder sjêne kaam it derút en foar’t ik it ferwurke hie frege er al : ' Giest mei nei ûnderen , nei it strân ? '
+# text = Sûnder sjêne kaam it derút en foar’t ik it ferwurke hie frege er al: ' Giest mei nei ûnderen, nei it strân ? '
 1	Sûnder	sûnder	ADP	VZ|init	_	2	case	_	_
 2	sjêne	sjêne	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	obl	_	_
 3	kaam	komme	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
