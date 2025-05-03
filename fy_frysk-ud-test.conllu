@@ -62,7 +62,7 @@
 59	"	"	PUNCT	LET	_	60	punct	_	_
 60	ús	ús	PRON	VNW|bez|det|stan|vol|1|mv|prenom|zonder|evon	Person=1|Poss=Yes|PronType=Prs	18	conj	_	_
 61	pake	pake	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	60	fixed	_	_
-62	’	’	PUNCT	LET	_	60	fixed	_	_
+62	’	’	PUNCT	LET	_	60	punct	_	_
 63	hûs	hûs	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	60	fixed	_	_
 64	"	"	PUNCT	LET	_	60	punct	_	SpaceAfter=No
 65	.	.	PUNCT	LET	_	11	punct	_	SpacesAfter=\n
@@ -905,7 +905,7 @@
 32	fan	fan	ADP	VZ|init	_	34	case	_	_
 33	’e	’e	DET	LID|bep|stan|rest	Definite=Def	34	det	_	_
 34	skriuwer	skriuwer	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	31	nmod	_	_
-35	/	/	PUNCT	LET	_	34	fixed	_	_
+35	/	/	PUNCT	LET	_	34	punct	_	_
 36	oersetter	oersetter	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	34	fixed	_	_
 37	freget	freegje	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No
 38	.	.	PUNCT	LET	_	13	punct	_	SpacesAfter=\n
@@ -2366,10 +2366,10 @@
 
 # sent_id = 1043
 # text = 'Hawwe jim al drinken?
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	2	punct	_	SpaceAfter=No
 2	Hawwe	hawwe	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	jim	jim	PRON	VNW|pers|pron|stan|nadr|2v|mv	Person=2|PronType=Prs	1	nsubj	_	_
-4	al	al	ADV	BW	_	0	advmod	_	_
+4	al	al	ADV	BW	_	2	advmod	_	_
 5	drinken	drinken	NOUN	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	1	obl	_	SpaceAfter=No
 6	?	?	PUNCT	LET	_	1	punct	_	_
 
@@ -3358,12 +3358,12 @@
 
 # sent_id = 1516
 # text = 'Doch net sa gek, mem.'
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	2	punct	_	SpaceAfter=No
 2	Doch	dwaan	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	net	net	ADV	BW	_	1	advmod	_	_
-4	sa	sa	ADV	BW	_	0	advmod	_	_
+4	sa	sa	ADV	BW	_	2	advmod	_	_
 5	gek	gek	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	1	advmod	_	SpaceAfter=No
-6	,	,	PUNCT	LET	_	0	punct	_	_
+6	,	,	PUNCT	LET	_	2	punct	_	_
 7	mem	mem	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	1	parataxis	_	SpaceAfter=No
 8	.	.	PUNCT	LET	_	1	punct	_	SpaceAfter=No
 9	'	'	PUNCT	LET	_	1	punct	_	_
@@ -3657,7 +3657,7 @@
 5	oait	oait	ADV	BW	_	6	advmod	_	_
 6	misse	misse	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	_	_
 7	kinnen	kinne	AUX	WW|inf|vrij|zonder	VerbForm=Inf	6	aux	_	SpaceAfter=No
-8	?	?	PUNCT	LET	_	0	root	_	_
+8	?	?	PUNCT	LET	_	6	punct	_	_
 
 # sent_id = 129
 # text = Oars sieten se op in geheim adres.
@@ -4410,10 +4410,10 @@
 
 # sent_id = 1838
 # text = 'Myn soan is healwei fjouweren út.'
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
-2	Myn	myn	PRON	VNW|bez|det|stan|vol|1|ev|prenom|zonder|agr	Person=1|Poss=Yes|PronType=Prs	0	nmod:poss	_	_
+1	'	'	PUNCT	LET	_	5	punct	_	SpaceAfter=No
+2	Myn	myn	PRON	VNW|bez|det|stan|vol|1|ev|prenom|zonder|agr	Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
 3	soan	soan	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	nsubj	_	_
-4	is	wêze	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	0	cop	_	_
+4	is	wêze	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	5	cop	_	_
 5	healwei	healwei	ADV	ADJ|vrij|basis|zonder	Degree=Pos	0	root	_	_
 6	fjouweren	fjouwer	NUM	TW|hoofd|vrij	_	4	fixed	_	_
 7	út	út	ADP	VZ|fin	_	4	fixed	_	SpaceAfter=No
@@ -5133,7 +5133,7 @@
 
 # sent_id = 1971
 # text = 'Ein fuort...'
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	2	punct	_	SpaceAfter=No
 2	Ein	ein	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	0	root	_	_
 3	fuort	fuort	ADV	BW	_	1	parataxis	_	_
 4	...	...	PUNCT	LET	_	1	punct	_	SpaceAfter=No
@@ -5392,7 +5392,7 @@
 
 # sent_id = 1718
 # text = 'Wat oars?
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	2	punct	_	SpaceAfter=No
 2	Wat	wat	PRON	VNW|vb|pron|stan|vol|3o|ev	Person=3|PronType=Int	0	root	_	_
 3	oars	oars	ADV	BW	_	1	amod	_	SpaceAfter=No
 4	?	?	PUNCT	LET	_	1	punct	_	_
@@ -5694,12 +5694,12 @@
 
 # sent_id = 1498
 # text = 'Wolst it net, mar moatst,' werhelle er my.
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	2	punct	_	SpaceAfter=No
 2	Wolst	wolle	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	it	it	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	1	obj	_	_
 4	net	net	ADV	BW	_	1	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	LET	_	6	punct	_	_
-6	mar	mar	CCONJ	VG|neven	_	0	cc	_	_
+6	mar	mar	CCONJ	VG|neven	_	2	cc	_	_
 7	moatst	moatte	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No
 8	,	,	PUNCT	LET	_	1	punct	_	SpaceAfter=No
 9	'	'	PUNCT	LET	_	1	punct	_	_
@@ -8449,7 +8449,7 @@
 6	,	,	PUNCT	LET	_	11	punct	_	_
 7	want	want	CCONJ	VG|neven	_	11	cc	_	_
 8	Ulie	Ulie	PROPN	SPEC|deeleigen	_	11	nsubj	_	_
-9	-	-	PUNCT	LET	_	8	flat	_	_
+9	-	-	PUNCT	LET	_	8	punct	_	_
 10	Uilkje	Uilkje	PROPN	SPEC|deeleigen	_	8	flat	_	_
 11	gie	gean	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	_
 12	gewoan	gewoan	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	11	xcomp	_	_
@@ -8819,37 +8819,37 @@
 
 # sent_id = 1122
 # text = 'Dit even fuortbringe,' sei ik en seach út myn eachhoeke wei dat hy ek myn Spa pakte en dêrmei troch de doar nei bûten gie, nei de trep.
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	4	punct	_	SpaceAfter=No
 2	Dit	dit	PRON	VNW|aanw|pron|stan|vol|3o|ev	Person=3|PronType=Dem	3	obj	_	_
-3	even	even	ADV	BW	_	0	advmod	_	_
+3	even	even	ADV	BW	_	4	advmod	_	_
 4	fuortbringe	fuortbringe	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	LET	_	6	punct	_	SpaceAfter=No
-6	'	'	PUNCT	LET	_	0	punct	_	_
+6	'	'	PUNCT	LET	_	4	punct	_	_
 7	sei	sizze	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	3	parataxis	_	_
 8	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	6	nsubj	_	_
-9	en	en	CCONJ	VG|neven	_	0	cc	_	_
+9	en	en	CCONJ	VG|neven	_	4	cc	_	_
 10	seach	sjen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	3	conj	_	_
 11	út	út	ADP	VZ|init	_	12	case	_	_
-12	myn	myn	PRON	VNW|bez|det|stan|vol|1|ev|prenom|zonder|agr	Person=1|Poss=Yes|PronType=Prs	0	nmod:poss	_	_
+12	myn	myn	PRON	VNW|bez|det|stan|vol|1|ev|prenom|zonder|agr	Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
 13	eachhoeke	eachhoeke	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	obl	_	_
 14	wei	wei	ADP	VZ|fin	_	9	compound:prt	_	_
 15	dat	dat	SCONJ	VG|onder	_	19	mark	_	_
 16	hy	hy	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	19	nsubj	_	_
 17	ek	ek	ADV	BW	_	19	advmod	_	_
-18	myn	myn	PRON	VNW|bez|det|stan|vol|1|ev|prenom|zonder|agr	Person=1|Poss=Yes|PronType=Prs	0	nmod:poss	_	_
-19	Spa	spa	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	obj	_	_
+18	myn	myn	PRON	VNW|bez|det|stan|vol|1|ev|prenom|zonder|agr	Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+19	Spa	spa	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	obj	_	_
 20	pakte	pakke	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	9	ccomp	_	_
 21	en	en	CCONJ	VG|neven	_	27	cc	_	_
 22	dêrmei	dêrmei	ADV	BW	_	27	advmod	_	_
 23	troch	troch	ADP	VZ|init	_	24	case	_	_
-24	de	de	DET	LID|bep|stan|rest	Definite=Def	0	det	_	_
+24	de	de	DET	LID|bep|stan|rest	Definite=Def	4	det	_	_
 25	doar	doar	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	27	obl	_	_
-26	nei	nei	ADP	VZ|init	_	0	case	_	_
-27	bûten	bûten	ADP	VZ|fin	_	0	obl	_	_
+26	nei	nei	ADP	VZ|init	_	4	case	_	_
+27	bûten	bûten	ADP	VZ|fin	_	4	obl	_	_
 28	gie	gean	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	19	conj	_	SpaceAfter=No
 29	,	,	PUNCT	LET	_	31	punct	_	_
 30	nei	nei	ADP	VZ|init	_	31	case	_	_
-31	de	de	DET	LID|bep|stan|rest	Definite=Def	0	det	_	_
+31	de	de	DET	LID|bep|stan|rest	Definite=Def	4	det	_	_
 32	trep	trep	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	27	obl	_	SpaceAfter=No
 33	.	.	PUNCT	LET	_	3	punct	_	SpacesAfter=\n
 
@@ -9296,13 +9296,13 @@
 
 # sent_id = 1756
 # text = 'O, is dit dyn mobile nûmer?'
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	8	punct	_	SpaceAfter=No
 2	O	o	INTJ	TSW	_	7	parataxis	_	SpaceAfter=No
 3	,	,	PUNCT	LET	_	1	punct	_	_
 4	is	wêze	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	7	cop	_	_
 5	dit	dit	PRON	VNW|aanw|pron|stan|vol|3o|ev	Person=3|PronType=Dem	7	nsubj	_	_
 6	dyn	dyn	PRON	VNW|bez|det|stan|red|2v|ev|prenom|zonder|agr	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
-7	mobile	mobyl	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	0	amod	_	_
+7	mobile	mobyl	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	8	amod	_	_
 8	nûmer	nûmer	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
 9	?	?	PUNCT	LET	_	7	punct	_	SpaceAfter=No
 10	'	'	PUNCT	LET	_	7	punct	_	_
@@ -9686,7 +9686,7 @@
 
 # sent_id = 1145
 # text = 'O
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	2	punct	_	SpaceAfter=No
 2	O	o	INTJ	TSW	_	0	root	_	_
 
 # sent_id = 948
@@ -10611,7 +10611,7 @@
 9	lange	lang	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	10	amod	_	_
 10	jurken	jurk	NOUN	N|soort|mv|basis	Number=Plur	11	obl	_	_
 11	rinne	rinne	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	_	SpaceAfter=No
-12	?	?	PUNCT	LET	_	0	root	_	_
+12	?	?	PUNCT	LET	_	11	punct	_	_
 
 # sent_id = 534
 # text = Der wurkje in lytse 2000 minsken.
@@ -12880,15 +12880,15 @@
 
 # sent_id = 1825
 # text = 'O,' sei er en bleau my oansjen.
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	5	punct	_	SpaceAfter=No
 2	O	o	INTJ	TSW	_	4	parataxis	_	SpaceAfter=No
 3	,	,	PUNCT	LET	_	1	punct	_	SpaceAfter=No
-4	'	'	PUNCT	LET	_	0	punct	_	_
+4	'	'	PUNCT	LET	_	5	punct	_	_
 5	sei	sizze	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 6	er	er	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	4	nsubj	_	_
-7	en	en	CCONJ	VG|neven	_	0	cc	_	_
+7	en	en	CCONJ	VG|neven	_	5	cc	_	_
 8	bleau	bliuwe	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	4	conj	_	_
-9	my	my	PRON	VNW|pr|pron|obl|vol|1|ev	Case=Acc|Person=1|PronType=Prs	0	obj	_	_
+9	my	my	PRON	VNW|pr|pron|obl|vol|1|ev	Case=Acc|Person=1|PronType=Prs	5	obj	_	_
 10	oansjen	oansjen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
 11	.	.	PUNCT	LET	_	4	punct	_	SpacesAfter=\n
 
@@ -13022,7 +13022,7 @@
 14	w	w	SYM	SPEC|symb	_	3	conj	_	_
 15	]	]	PUNCT	LET	_	8	punct	_	_
 16	kinne	kinne	AUX	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	17	aux	_	_
-17	nea	nea	ADV	BW	_	0	advmod	_	_
+17	nea	nea	ADV	BW	_	2	advmod	_	_
 18	oan	oan	ADP	VZ|init	_	14	case	_	_
 19	it	it	DET	LID|bep|stan|evon	Definite=Def	14	det	_	_
 20	begjin	begjin	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	17	obl	_	_
@@ -14255,17 +14255,17 @@
 
 # sent_id = 1142
 # text = 'Mar hast dochs in kear by Ulie thús west, blykber.'
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	10	punct	_	SpaceAfter=No
 2	Mar	mar	CCONJ	VG|neven	_	9	mark	_	_
 3	hast	hawwe	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	9	aux	_	_
 4	dochs	dochs	ADV	BW	_	9	advmod	_	_
-5	in	in	DET	LID|onbep|stan|agr	Definite=Ind	0	det	_	_
+5	in	in	DET	LID|onbep|stan|agr	Definite=Ind	10	det	_	_
 6	kear	kear	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	obl	_	_
-7	by	by	ADP	VZ|init	_	0	case	_	_
+7	by	by	ADP	VZ|init	_	10	case	_	_
 8	Ulie	Ulie	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	obl	_	_
-9	thús	thús	ADV	BW	_	0	advmod	_	_
+9	thús	thús	ADV	BW	_	10	advmod	_	_
 10	west	wêze	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	SpaceAfter=No
-11	,	,	PUNCT	LET	_	0	punct	_	_
+11	,	,	PUNCT	LET	_	10	punct	_	_
 12	blykber	blykber	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	9	parataxis	_	SpaceAfter=No
 13	.	.	PUNCT	LET	_	9	punct	_	SpaceAfter=No
 14	'	'	PUNCT	LET	_	9	punct	_	_
@@ -14854,15 +14854,15 @@
 
 # sent_id = 733
 # text = 'Mem, ik moat fan 'e middei in fûgel wêze.
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	10	punct	_	SpaceAfter=No
 2	Mem	mem	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	parataxis	_	SpaceAfter=No
 3	,	,	PUNCT	LET	_	1	punct	_	_
 4	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	9	nsubj	_	_
 5	moat	moatte	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	9	aux	_	_
 6	fan	fan	ADP	VZ|init	_	7	case	_	_
-7	'e	'e	DET	LID|bep|stan|rest	Definite=Def	0	det	_	_
+7	'e	'e	DET	LID|bep|stan|rest	Definite=Def	10	det	_	_
 8	middei	middei	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	obl	_	_
-9	in	in	DET	LID|onbep|stan|agr	Definite=Ind	0	det	_	_
+9	in	in	DET	LID|onbep|stan|agr	Definite=Ind	10	det	_	_
 10	fûgel	fûgel	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	_	_
 11	wêze	wêze	AUX	WW|inf|vrij|zonder	VerbForm=Inf	9	cop	_	SpaceAfter=No
 12	.	.	PUNCT	LET	_	9	punct	_	SpacesAfter=\n
@@ -16584,7 +16584,7 @@
 
 # sent_id = 1434
 # text = 'Kin... kin...'
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	4	punct	_	SpaceAfter=No
 2	Kin	kinne	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 3	...	...	PUNCT	LET	_	1	punct	_	_
 4	kin	kinne	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -17097,7 +17097,7 @@
 
 # sent_id = 844
 # text = 'Rotmem!!' rôp er troch de iepen doar fan myn wurkkeamer, dêr’t ik lang om let delstrutsen wie achter de kompjûter om mei goedkeape farianten fan bestrjitting binnen in begrutting te bliuwen.
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	6	punct	_	SpaceAfter=No
 2	Rotmem	rotmem	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	5	parataxis	_	SpaceAfter=No
 3	!	!	PUNCT	LET	_	1	punct	_	SpaceAfter=No
 4	!	!	PUNCT	LET	_	5	punct	_	SpaceAfter=No
@@ -17106,32 +17106,32 @@
 7	er	er	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	5	nsubj	_	_
 8	troch	troch	ADP	VZ|init	_	10	case	_	_
 9	de	de	DET	LID|bep|stan|rest	Definite=Def	10	det	_	_
-10	iepen	iepen	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	0	amod	_	_
+10	iepen	iepen	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	6	amod	_	_
 11	doar	doar	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	5	obl	_	_
 12	fan	fan	ADP	VZ|init	_	13	case	_	_
-13	myn	myn	PRON	VNW|bez|det|stan|vol|1|ev|prenom|zonder|agr	Person=1|Poss=Yes|PronType=Prs	0	nmod:poss	_	_
+13	myn	myn	PRON	VNW|bez|det|stan|vol|1|ev|prenom|zonder|agr	Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
 14	wurkkeamer	wurkkeamer	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	10	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	LET	_	20	punct	_	_
 16	dêr’t	dêr’t	ADV	VNW|vb|adv-pron|obl|vol|3o|getal	_	20	obj	_	_
 17	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	20	nsubj	_	_
 18	lang	lang	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	20	advmod	_	_
 19	om	om	ADP	VZ|init	_	15	obl	_	_
-20	let	let	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	0	advmod	_	_
+20	let	let	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	6	advmod	_	_
 21	delstrutsen	delstrike	VERB	WW|vd|vrij|zonder	VerbForm=Part	10	acl:relcl	_	_
 22	wie	wêze	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	20	aux:pass	_	_
 23	achter	achter	ADP	VZ|init	_	24	case	_	_
-24	de	de	DET	LID|bep|stan|rest	Definite=Def	0	det	_	_
+24	de	de	DET	LID|bep|stan|rest	Definite=Def	6	det	_	_
 25	kompjûter	kompjûter	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	20	obl	_	_
 26	om	om	ADP	VZ|init	_	35	mark	_	_
 27	mei	mei	ADP	VZ|init	_	28	case	_	_
-28	goedkeape	goedkeap	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	0	amod	_	_
+28	goedkeape	goedkeap	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	6	amod	_	_
 29	farianten	fariant	NOUN	N|soort|mv|basis	Number=Plur	35	obl	_	_
-30	fan	fan	ADP	VZ|init	_	0	case	_	_
+30	fan	fan	ADP	VZ|init	_	6	case	_	_
 31	bestrjitting	bestrjitting	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	28	nmod	_	_
 32	binnen	binnen	ADP	VZ|init	_	33	case	_	_
-33	in	in	DET	LID|onbep|stan|agr	Definite=Ind	0	det	_	_
+33	in	in	DET	LID|onbep|stan|agr	Definite=Ind	6	det	_	_
 34	begrutting	begrutting	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	35	obl	_	_
-35	te	te	ADP	VZ|init	_	0	mark	_	_
+35	te	te	ADP	VZ|init	_	6	mark	_	_
 36	bliuwen	bliuwe	VERB	WW|inf|vrij|zonder	VerbForm=Inf	20	advcl	_	SpaceAfter=No
 37	.	.	PUNCT	LET	_	5	punct	_	SpacesAfter=\n
 
@@ -17188,8 +17188,8 @@
 
 # sent_id = 1491
 # text = 'Hoe troud bisto?'
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
-2	Hoe	hoe	ADV	BW	_	0	advmod	_	_
+1	'	'	PUNCT	LET	_	3	punct	_	SpaceAfter=No
+2	Hoe	hoe	ADV	BW	_	3	advmod	_	_
 3	troud	trouwe	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	_
 4	bisto	wêze	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	2	cop	_	SpaceAfter=No
 5	?	?	PUNCT	LET	_	2	punct	_	SpaceAfter=No
@@ -18905,11 +18905,11 @@
 
 # sent_id = 1893
 # text = 'Wat is der mei dy?
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	2	punct	_	SpaceAfter=No
 2	Wat	wat	PRON	VNW|vb|pron|stan|vol|3o|ev	Person=3|PronType=Int	0	root	_	_
 3	is	wêze	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	1	cop	_	_
 4	der	der	ADV	VNW|aanw|adv-pron|stan|red|3|getal	_	5	advmod	_	_
-5	mei	mei	ADP	VZ|init	_	0	case	_	_
+5	mei	mei	ADP	VZ|init	_	2	case	_	_
 6	dy	dy	PRON	VNW|pers|pron|obl|vol|2v|ev	Case=Acc|Person=2|PronType=Prs	1	nsubj	_	SpaceAfter=No
 7	?	?	PUNCT	LET	_	1	punct	_	_
 
@@ -19016,14 +19016,14 @@
 
 # sent_id = 752
 # text = 'Mem sei dochs dat mem al wat hie?'
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
-2	Mem	mem	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	nsubj	_	_
+1	'	'	PUNCT	LET	_	3	punct	_	SpaceAfter=No
+2	Mem	mem	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	nsubj	_	_
 3	sei	sizze	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	dochs	dochs	ADV	BW	_	2	advmod	_	_
 5	dat	dat	SCONJ	VG|onder	_	8	mark	_	_
 6	mem	mem	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	nsubj	_	_
 7	al	al	ADV	BW	_	8	advmod	_	_
-8	wat	wat	PRON	VNW|onbep|pron|stan|vol|3o|ev	Person=3|PronType=Ind	0	obj	_	_
+8	wat	wat	PRON	VNW|onbep|pron|stan|vol|3o|ev	Person=3|PronType=Ind	3	obj	_	_
 9	hie	hawwe	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
 10	?	?	PUNCT	LET	_	2	punct	_	SpaceAfter=No
 11	'	'	PUNCT	LET	_	2	punct	_	_
@@ -19227,17 +19227,17 @@
 
 # sent_id = 1653
 # text = 'Mar no wit ik dat it fjoer derút wie, Swaantsje.
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	4	punct	_	SpaceAfter=No
 2	Mar	mar	CCONJ	VG|neven	_	3	mark	_	_
-3	no	no	ADV	BW	_	0	advmod	_	_
+3	no	no	ADV	BW	_	4	advmod	_	_
 4	wit	witte	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	3	nsubj	_	_
 6	dat	dat	SCONJ	VG|onder	_	8	mark	_	_
-7	it	it	DET	LID|bep|stan|evon	Definite=Def	0	det	_	_
-8	fjoer	fjoer	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	0	nsubj	_	_
+7	it	it	DET	LID|bep|stan|evon	Definite=Def	4	det	_	_
+8	fjoer	fjoer	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	4	nsubj	_	_
 9	derút	derút	ADV	BW	_	3	ccomp	_	_
 10	wie	wêze	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	8	cop	_	SpaceAfter=No
-11	,	,	PUNCT	LET	_	0	punct	_	_
+11	,	,	PUNCT	LET	_	4	punct	_	_
 12	Swaantsje	Swaantsje	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	parataxis	_	SpaceAfter=No
 13	.	.	PUNCT	LET	_	3	punct	_	SpacesAfter=\n
 
@@ -21585,12 +21585,12 @@
 
 # sent_id = 1451
 # text = 'Korné hat noch by ús west.'
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	7	punct	_	SpaceAfter=No
 2	Korné	Korné	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	nsubj	_	_
 3	hat	hawwe	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	6	aux	_	_
 4	noch	noch	ADV	BW	_	6	advmod	_	_
-5	by	by	ADP	VZ|init	_	0	case	_	_
-6	ús	ús	PRON	VNW|pr|pron|obl|vol|1|mv	Case=Acc|Person=1|PronType=Prs	0	obl	_	_
+5	by	by	ADP	VZ|init	_	7	case	_	_
+6	ús	ús	PRON	VNW|pr|pron|obl|vol|1|mv	Case=Acc|Person=1|PronType=Prs	7	obl	_	_
 7	west	wêze	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	LET	_	6	punct	_	SpaceAfter=No
 9	'	'	PUNCT	LET	_	6	punct	_	_
@@ -22400,8 +22400,8 @@
 
 # sent_id = 1198
 # text = 'Dit plak.'
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
-2	Dit	dit	DET	VNW|aanw|det|stan|prenom|zonder|evon	_	0	det	_	_
+1	'	'	PUNCT	LET	_	3	punct	_	SpaceAfter=No
+2	Dit	dit	DET	VNW|aanw|det|stan|prenom|zonder|evon	_	3	det	_	_
 3	plak	plak	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	LET	_	2	punct	_	SpaceAfter=No
 5	'	'	PUNCT	LET	_	2	punct	_	_
@@ -22778,11 +22778,11 @@
 
 # sent_id = 1313
 # text = 'Hast by de hynders west?'
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	6	punct	_	SpaceAfter=No
 2	Hast	hawwe	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	5	aux	_	_
 3	by	by	ADP	VZ|init	_	4	case	_	_
-4	de	de	DET	LID|bep|stan|rest	Definite=Def	0	det	_	_
-5	hynders	hynder	NOUN	N|soort|mv|basis	Number=Plur	0	obl	_	_
+4	de	de	DET	LID|bep|stan|rest	Definite=Def	6	det	_	_
+5	hynders	hynder	NOUN	N|soort|mv|basis	Number=Plur	6	obl	_	_
 6	west	wêze	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	SpaceAfter=No
 7	?	?	PUNCT	LET	_	5	punct	_	SpaceAfter=No
 8	'	'	PUNCT	LET	_	5	punct	_	_
@@ -22960,8 +22960,8 @@
 
 # sent_id = 1503
 # text = 'Ik slokte dochs even, want it wie nochal wat, mar wat hie ik te ferliezen?
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
-2	Ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	0	nsubj	_	_
+1	'	'	PUNCT	LET	_	3	punct	_	SpaceAfter=No
+2	Ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	3	nsubj	_	_
 3	slokte	slokke	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	dochs	dochs	ADV	BW	_	2	advmod	_	_
 5	even	even	ADV	BW	_	2	advmod	_	SpaceAfter=No
@@ -22969,14 +22969,14 @@
 7	want	want	CCONJ	VG|neven	_	10	mark	_	_
 8	it	it	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	10	nsubj	_	_
 9	wie	wêze	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	10	cop	_	_
-10	nochal	nochal	ADV	BW	_	0	amod	_	_
+10	nochal	nochal	ADV	BW	_	3	amod	_	_
 11	wat	wat	PRON	VNW|vb|pron|stan|vol|3o|ev	Person=3|PronType=Int	2	parataxis	_	SpaceAfter=No
 12	,	,	PUNCT	LET	_	14	punct	_	_
 13	mar	mar	CCONJ	VG|neven	_	14	cc	_	_
-14	wat	wat	PRON	VNW|vb|pron|stan|vol|3o|ev	Person=3|PronType=Int	0	nsubj	_	_
+14	wat	wat	PRON	VNW|vb|pron|stan|vol|3o|ev	Person=3|PronType=Int	3	nsubj	_	_
 15	hie	hawwe	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	10	conj	_	_
 16	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	14	obj	_	_
-17	te	te	ADP	VZ|init	_	0	mark	_	_
+17	te	te	ADP	VZ|init	_	3	mark	_	_
 18	ferliezen	ferlieze	VERB	WW|inf|vrij|zonder	VerbForm=Inf	14	xcomp	_	SpaceAfter=No
 19	?	?	PUNCT	LET	_	2	punct	_	_
 
@@ -24729,7 +24729,7 @@
 21	se	se	PRON	VNW|pers|pron|stan|red|3|mv	Person=3|PronType=Prs	26	nsubj:pass	_	_
 22	mei	mei	ADP	VZ|init	_	24	case	_	_
 23	in	in	DET	LID|onbep|stan|agr	Definite=Ind	24	det	_	_
-24	-n	-n	PUNCT	LET	_	26	obl	_	_
+24	-n	-n	PUNCT	LET	_	26	punct	_	_
 25	derefteroan	derefteroan	ADV	BW	_	26	advmod	_	_
 26	útsprutsen	útsprekke	VERB	WW|vd|vrij|zonder	VerbForm=Part	19	advcl	_	_
 27	wurde	wurde	AUX	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	26	aux:pass	_	_
@@ -26222,7 +26222,7 @@
 
 # sent_id = 1468
 # text = 'Dêr...'sei ik en streake daliks mei de fingerseinen oer de grize stikeltsjes by syn sliep, '... moat ik it antwurd even op skuldich bliuwe, man mei grize sliepen.'
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	2	punct	_	SpaceAfter=No
 2	Dêr	dêr	ADV	VNW|aanw|adv-pron|obl|vol|3o|getal	_	0	root	_	_
 3	...	...	PUNCT	LET	_	1	punct	_	SpaceAfter=No
 4	'	'	PUNCT	LET	_	1	punct	_	_
@@ -26247,7 +26247,7 @@
 23	moat	moatte	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	26	aux	_	_
 24	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	26	nsubj	_	_
 25	it	it	DET	LID|bep|stan|evon	Definite=Def	22	det	_	_
-26	antwurd	antwurd	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	0	obj	_	_
+26	antwurd	antwurd	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	2	obj	_	_
 27	even	even	ADV	BW	_	26	advmod	_	_
 28	op	op	ADP	VZ|fin	_	25	compound:prt	_	_
 29	skuldich	skuldich	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	26	xcomp	_	_
@@ -26322,7 +26322,7 @@
 51	’e	’e	DET	LID|bep|stan|rest	Definite=Def	13	det	_	_
 52	perioade	perioade	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	10	obl	_	_
 53	1100	1100	NUM	TW|hoofd|vrij	_	13	appos	_	_
-54	-	-	PUNCT	VG|neven	_	16	cc	_	_
+54	-	-	PUNCT	VG|neven	_	16	punct	_	_
 55	1125	1125	NUM	TW|hoofd|vrij	_	14	conj	_	SpaceAfter=No
 56	.	.	PUNCT	LET	_	2	punct	_	SpacesAfter=\n
 
@@ -27225,11 +27225,11 @@
 
 # sent_id = 1312
 # text = 'Ha keardel,' sei Durk.
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
-2	Ha	ha	INTJ	TSW	_	0	det	_	_
+1	'	'	PUNCT	LET	_	3	punct	_	SpaceAfter=No
+2	Ha	ha	INTJ	TSW	_	3	det	_	_
 3	keardel	keardel	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	LET	_	5	punct	_	SpaceAfter=No
-5	'	'	PUNCT	LET	_	0	punct	_	_
+5	'	'	PUNCT	LET	_	3	punct	_	_
 6	sei	sizze	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	2	parataxis	_	_
 7	Durk	Durk	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	5	nsubj	_	SpaceAfter=No
 8	.	.	PUNCT	LET	_	2	punct	_	SpacesAfter=\n
@@ -27270,7 +27270,7 @@
 6	‘	‘	PUNCT	LET	_	7	punct	_	_
 7	De	De	DET	LID|bep|stan|rest	Definite=Def	5	appos	_	_
 8	Cirkel	Cirkel	NOUN	SPEC|deeleigen	_	7	flat	_	_
-9	’	’	PUNCT	LET	_	7	flat	_	_
+9	’	’	PUNCT	LET	_	7	punct	_	_
 10	op	op	ADP	VZ|init	_	11	case	_	_
 11	It	It	PROPN	SPEC|deeleigen	_	5	nmod	_	_
 12	Hearrenfean	Hearrenfean	PROPN	SPEC|deeleigen	_	11	flat	_	_
@@ -27455,10 +27455,10 @@
 
 # sent_id = 1421
 # text = 'Ik wie der behoarlik ôf '.
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	5	punct	_	SpaceAfter=No
 2	Ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	4	nsubj	_	_
 3	wie	wêze	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	4	cop	_	_
-4	der	der	ADV	VNW|aanw|adv-pron|stan|red|3|getal	_	0	advmod	_	_
+4	der	der	ADV	VNW|aanw|adv-pron|stan|red|3|getal	_	5	advmod	_	_
 5	behoarlik	behoarlik	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	0	root	_	_
 6	ôf	ôf	ADP	VZ|fin	_	4	case	_	_
 7	'	'	PUNCT	LET	_	4	punct	_	SpaceAfter=No
@@ -27779,18 +27779,18 @@
 
 # sent_id = 751
 # text = 'Kom mar, we sille achter dy fûgel oan.'
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	2	punct	_	SpaceAfter=No
 2	Kom	komme	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	mar	mar	ADV	BW	_	1	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	LET	_	1	punct	_	_
 5	we	we	PRON	VNW|pers|pron|nomin|red|1|mv	Case=Nom|Person=1|PronType=Prs	1	nsubj	_	_
 6	sille	sille	AUX	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	9	aux	_	_
 7	achter	achter	ADP	VZ|init	_	8	case	_	_
-8	dy	dy	DET	VNW|aanw|det|stan|prenom|zonder|rest	_	0	det	_	_
-9	fûgel	fûgel	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	obl	_	_
+8	dy	dy	DET	VNW|aanw|det|stan|prenom|zonder|rest	_	2	det	_	_
+9	fûgel	fûgel	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	obl	_	_
 10	oan	oan	ADP	VZ|fin	_	1	compound:prt	_	SpaceAfter=No
 11	.	.	PUNCT	LET	_	1	punct	_	SpaceAfter=No
-12	'	'	PUNCT	LET	_	0	root	_	_
+12	'	'	PUNCT	LET	_	2	punct	_	_
 
 # sent_id = 2894
 # text = Yn ’t earstoan wie men fan doel en skreau in wurdboek dat ferlykber wêze soe mei de Nederlânske Dikke Van Dale, mar der kaam safolle materiaal binnen dat men úteinlik besleat om it noch folle grutskaliger oan te pakken.
@@ -31909,17 +31909,17 @@
 
 # sent_id = 1070
 # text = 'En dan dat famke fan Gretha as breidsfamke, dat fyn ik ek nuver.'
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	12	punct	_	SpaceAfter=No
 2	En	en	CCONJ	VG|neven	_	11	mark	_	_
 3	dan	dan	ADV	BW	_	11	parataxis	_	_
-4	dat	dat	DET	VNW|aanw|det|stan|prenom|zonder|evon	_	0	det	_	_
+4	dat	dat	DET	VNW|aanw|det|stan|prenom|zonder|evon	_	12	det	_	_
 5	famke	famke	NOUN	N|soort|ev|dim|onz|stan	Gender=Neut|Number=Sing	2	parataxis	_	_
-6	fan	fan	ADP	VZ|init	_	0	case	_	_
+6	fan	fan	ADP	VZ|init	_	12	case	_	_
 7	Gretha	Gretha	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	nmod	_	_
-8	as	as	ADP	VZ|init	_	0	mark	_	_
+8	as	as	ADP	VZ|init	_	12	mark	_	_
 9	breidsfamke	breidsfamke	NOUN	N|soort|ev|dim|onz|stan	Gender=Neut|Number=Sing	4	acl	_	SpaceAfter=No
 10	,	,	PUNCT	LET	_	2	punct	_	_
-11	dat	dat	PRON	VNW|aanw|pron|stan|vol|3o|ev	Person=3|PronType=Dem	0	obj	_	_
+11	dat	dat	PRON	VNW|aanw|pron|stan|vol|3o|ev	Person=3|PronType=Dem	12	obj	_	_
 12	fyn	fine	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	11	nsubj	_	_
 14	ek	ek	ADV	BW	_	11	advmod	_	_
@@ -32547,10 +32547,10 @@
 10	Genoatskip	genoatskip	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	9	fixed	_	_
 11	foar	foar	ADP	VZ|init	_	9	fixed	_	_
 12	Skiednis	skiednis	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	fixed	_	_
-13	-	-	PUNCT	LET	_	9	fixed	_	SpaceAfter=No
-14	,	,	PUNCT	LET	_	9	fixed	_	_
+13	-	-	PUNCT	LET	_	9	punct	_	SpaceAfter=No
+14	,	,	PUNCT	LET	_	9	punct	_	_
 15	Aldheid	âldheid	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	fixed	_	_
-16	-	-	PUNCT	SPEC|symb	_	9	fixed	_	_
+16	-	-	PUNCT	SPEC|symb	_	9	punct	_	_
 17	en	en	CCONJ	VG|neven	_	9	fixed	_	_
 18	Taalkunde	taalkunde	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	fixed	_	SpaceAfter=No
 19	,	,	PUNCT	LET	_	28	punct	_	_
@@ -32695,7 +32695,7 @@
 17	tiid	tiid	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	13	nmod	_	_
 18	(	(	PUNCT	LET	_	19	punct	_	_
 19	1793	1793	NUM	TW|hoofd|vrij	_	17	nmod	_	_
-20	-	-	PUNCT	LET	_	19	fixed	_	_
+20	-	-	PUNCT	LET	_	19	punct	_	_
 21	1812	1812	NUM	TW|hoofd|vrij	_	19	fixed	_	_
 22	)	)	PUNCT	LET	_	19	punct	_	SpaceAfter=No
 23	,	,	PUNCT	LET	_	26	punct	_	_
@@ -34683,19 +34683,19 @@
 
 # sent_id = 1742
 # text = 'Bist fereale, leave ' sei ik nochris tsjin mysels yn ’e spegel.
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
-2	Bist	wêze	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	cop	_	_
+1	'	'	PUNCT	LET	_	3	punct	_	SpaceAfter=No
+2	Bist	wêze	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	fereale	fereale	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	LET	_	0	punct	_	_
+4	,	,	PUNCT	LET	_	3	punct	_	_
 5	leave	leave	NOUN	N|soort|ev|dim|onz|stan	Gender=Neut|Number=Sing	2	parataxis	_	_
-6	'	'	PUNCT	LET	_	0	punct	_	_
+6	'	'	PUNCT	LET	_	3	punct	_	_
 7	sei	sizze	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	2	parataxis	_	_
 8	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	6	nsubj	_	_
 9	nochris	nochris	ADV	BW	_	6	advmod	_	_
-10	tsjin	tsjin	ADP	VZ|init	_	0	case	_	_
+10	tsjin	tsjin	ADP	VZ|init	_	3	case	_	_
 11	mysels	mysels	PRON	VNW|pr|pron|obl|nadr|1|ev	Case=Acc|Person=1|PronType=Prs	6	obl	_	_
 12	yn	yn	ADP	VZ|init	_	13	case	_	_
-13	’e	’e	DET	LID|bep|stan|rest	Definite=Def	0	det	_	_
+13	’e	’e	DET	LID|bep|stan|rest	Definite=Def	3	det	_	_
 14	spegel	spegel	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	obl	_	SpaceAfter=No
 15	.	.	PUNCT	LET	_	2	punct	_	SpacesAfter=\n
 
@@ -35895,32 +35895,32 @@
 
 # sent_id = 1038
 # text = 'Keapje der mar wat moais foar,' hearde ik mysels sizzen, en ik begriep net dat der út myn mûle sokke tuttige wurden komme koenen.
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	2	punct	_	SpaceAfter=No
 2	Keapje	keapje	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	der	der	ADV	VNW|aanw|adv-pron|stan|red|3|getal	_	1	advmod	_	_
 4	mar	mar	ADV	BW	_	1	advmod	_	_
-5	wat	wat	PRON	VNW|onbep|pron|stan|vol|3o|ev	Person=3|PronType=Ind	0	obl	_	_
-6	moais	moai	ADJ	ADJ|postnom|basis|met-s	Degree=Pos	0	amod	_	_
+5	wat	wat	PRON	VNW|onbep|pron|stan|vol|3o|ev	Person=3|PronType=Ind	2	obl	_	_
+6	moais	moai	ADJ	ADJ|postnom|basis|met-s	Degree=Pos	2	amod	_	_
 7	foar	foar	ADP	VZ|fin	_	1	case	_	SpaceAfter=No
 8	,	,	PUNCT	LET	_	9	punct	_	SpaceAfter=No
-9	'	'	PUNCT	LET	_	0	punct	_	_
+9	'	'	PUNCT	LET	_	2	punct	_	_
 10	hearde	hearre	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	1	conj	_	_
 11	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	12	nsubj	_	_
-12	mysels	mysels	PRON	VNW|pr|pron|obl|nadr|1|ev	Case=Acc|Person=1|PronType=Prs	0	obj	_	_
+12	mysels	mysels	PRON	VNW|pr|pron|obl|nadr|1|ev	Case=Acc|Person=1|PronType=Prs	2	obj	_	_
 13	sizzen	sizze	VERB	WW|inf|vrij|zonder	VerbForm=Inf	1	parataxis	_	SpaceAfter=No
 14	,	,	PUNCT	LET	_	16	punct	_	_
 15	en	en	CCONJ	VG|neven	_	16	cc	_	_
-16	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	0	nsubj	_	_
+16	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	2	nsubj	_	_
 17	begriep	begripe	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	1	conj	_	_
 18	net	net	ADV	BW	_	16	advmod	_	_
 19	dat	dat	SCONJ	VG|onder	_	26	mark	_	_
 20	der	der	ADV	VNW|aanw|adv-pron|stan|red|3|getal	_	26	advmod	_	_
 21	út	út	ADP	VZ|init	_	22	case	_	_
-22	myn	myn	PRON	VNW|bez|det|stan|vol|1|ev|prenom|zonder|agr	Person=1|Poss=Yes|PronType=Prs	0	nmod:poss	_	_
+22	myn	myn	PRON	VNW|bez|det|stan|vol|1|ev|prenom|zonder|agr	Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
 23	mûle	mûle	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	26	obl	_	_
 24	sokke	sok	DET	VNW|aanw|det|stan|prenom|met-e|rest	_	25	det	_	_
-25	tuttige	tuttich	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	0	amod	_	_
-26	wurden	wurd	NOUN	N|soort|mv|basis	Number=Plur	0	nsubj	_	_
+25	tuttige	tuttich	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	2	amod	_	_
+26	wurden	wurd	NOUN	N|soort|mv|basis	Number=Plur	2	nsubj	_	_
 27	komme	komme	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	16	ccomp	_	_
 28	koenen	kinne	AUX	WW|pv|verl|mv	Number=Plur|Tense=Past|VerbForm=Fin	26	aux	_	SpaceAfter=No
 29	.	.	PUNCT	LET	_	1	punct	_	SpacesAfter=\n
@@ -37076,13 +37076,13 @@
 
 # sent_id = 1696
 # text = 'We fine it aardich asto dat dwaan wolle soest.
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
-2	We	we	PRON	VNW|pers|pron|nomin|red|1|mv	Case=Nom|Person=1|PronType=Prs	0	nsubj	_	_
+1	'	'	PUNCT	LET	_	3	punct	_	SpaceAfter=No
+2	We	we	PRON	VNW|pers|pron|nomin|red|1|mv	Case=Nom|Person=1|PronType=Prs	3	nsubj	_	_
 3	fine	fine	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	it	it	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	2	expl	_	_
 5	aardich	aardich	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	2	xcomp	_	_
 6	asto	as	SCONJ	VG|onder	_	7	mark	_	_
-7	dat	dat	PRON	VNW|aanw|pron|stan|vol|3o|ev	Person=3|PronType=Dem	0	nsubj	_	_
+7	dat	dat	PRON	VNW|aanw|pron|stan|vol|3o|ev	Person=3|PronType=Dem	3	nsubj	_	_
 8	dwaan	dwaan	VERB	WW|inf|vrij|zonder	VerbForm=Inf	2	ccomp	_	_
 9	wolle	wolle	VERB	WW|inf|vrij|zonder	VerbForm=Inf	7	xcomp	_	_
 10	soest	sille	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	7	aux	_	SpaceAfter=No
@@ -37143,7 +37143,7 @@
 15	my	my	PRON	VNW|pr|pron|obl|vol|1|ev	Case=Acc|Person=1|PronType=Prs	17	obj	_	_
 16	daliks	daliks	ADV	ADJ|vrij|basis|zonder	Degree=Pos	17	advmod	_	_
 17	werombelje	werombelje	VERB	WW|inf|vrij|zonder	VerbForm=Inf	5	conj	_	SpaceAfter=No
-18	?	?	PUNCT	LET	_	0	root	_	_
+18	?	?	PUNCT	LET	_	5	punct	_	_
 
 # sent_id = 2857
 # text = By in nau besibbe taal as it Ingelsk leit dat hiel oars, mei’t dy taal in ûnbidige soad Romaanske lienwurden opnommen hat út it Normandysk en it Frânsk.
@@ -38159,12 +38159,12 @@
 
 # sent_id = 1071
 # text = 'Sil ik noch wat drinken helje?
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	7	punct	_	SpaceAfter=No
 2	Sil	sille	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	6	aux	_	_
 3	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	6	nsubj	_	_
 4	noch	noch	ADV	BW	_	6	advmod	_	_
-5	wat	wat	DET	VNW|onbep|pron|stan|vol|3o|ev	_	0	det	_	_
-6	drinken	drinken	NOUN	N|soort|mv|basis	Number=Plur	0	nsubj	_	_
+5	wat	wat	DET	VNW|onbep|pron|stan|vol|3o|ev	_	7	det	_	_
+6	drinken	drinken	NOUN	N|soort|mv|basis	Number=Plur	7	nsubj	_	_
 7	helje	helje	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	?	?	PUNCT	LET	_	6	punct	_	_
 
@@ -38845,7 +38845,7 @@
 5	belangrike	belangryk	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	6	amod	_	_
 6	taak	taak	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	obj	_	_
 7	yn	yn	ADP	VZ|init	_	9	case	_	_
-8	’e	’e	PUNCT	LID|bep|stan|rest	Definite=Def	9	det	_	_
+8	’e	’e	PUNCT	LID|bep|stan|rest	Definite=Def	9	punct	_	_
 9	rjochtspraak	rjochtspraak	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	nmod	_	_
 10	en	en	CCONJ	VG|neven	_	14	cc	_	_
 11	dat	dat	PRON	VNW|aanw|pron|stan|vol|3o|ev	Person=3|PronType=Dem	14	nsubj	_	_
@@ -39223,14 +39223,14 @@
 
 # sent_id = 1432
 # text = 'Mwhaaa... dines, miskien, mar wat is mines?
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	2	punct	_	SpaceAfter=No
 2	Mwhaaa	mwhaaa	INTJ	TSW	_	0	root	_	_
 3	...	...	PUNCT	LET	_	1	punct	_	_
 4	dines	dyn	PRON	VNW|bez|det|stan|vol|2v|ev|prenom|zonder|agr	Person=2|Poss=Yes|PronType=Prs	1	parataxis	_	SpaceAfter=No
 5	,	,	PUNCT	LET	_	3	punct	_	_
 6	miskien	miskien	ADV	BW	_	3	advmod	_	SpaceAfter=No
 7	,	,	PUNCT	LET	_	8	punct	_	_
-8	mar	mar	CCONJ	VG|neven	_	0	cc	_	_
+8	mar	mar	CCONJ	VG|neven	_	2	cc	_	_
 9	wat	wat	PRON	VNW|vb|pron|stan|vol|3o|ev	Person=3|PronType=Int	3	conj	_	_
 10	is	wêze	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	8	cop	_	_
 11	mines	myn	PRON	VNW|bez|det|stan|vol|1|ev|prenom|zonder|agr	Person=1|Poss=Yes|PronType=Prs	8	nsubj	_	SpaceAfter=No
@@ -40398,7 +40398,7 @@
 17	soarge	soargje	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	_
 18	dat	dat	SCONJ	VG|onder	_	20	mark	_	_
 19	it	it	DET	LID|bep|stan|evon	Definite=Def	11	det	_	_
-20	Lieteboek	lieteboek	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	0	nsubj	_	_
+20	Lieteboek	lieteboek	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	2	nsubj	_	_
 21	foar	foar	ADP	VZ|init	_	14	case	_	_
 22	de	de	DET	LID|bep|stan|rest	Definite=Def	14	det	_	_
 23	Tsjerken	tsjerke	NOUN	N|soort|mv|basis	Number=Plur	11	nmod	_	_
@@ -41145,7 +41145,7 @@
 # sent_id = 2177
 # text = Op ’e wapenbuorden fan de geastliken dy’t flechte wiene, binne meastentiids in mistsjelke of in hosty ôfbylde.
 1	Op	op	ADP	VZ|init	_	3	case	_	_
-2	’e	’e	PUNCT	LID|bep|stan|rest	Definite=Def	3	det	_	_
+2	’e	’e	PUNCT	LID|bep|stan|rest	Definite=Def	3	punct	_	_
 3	wapenbuorden	wapenbuord	NOUN	N|soort|mv|basis	Number=Plur	0	root	_	_
 4	fan	fan	ADP	VZ|init	_	3	parataxis	_	_
 5	de	de	DET	LID|bep|stan|rest	Definite=Def	3	parataxis	_	_
@@ -41345,7 +41345,7 @@
 14	oranje	oranje	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	18	nmod	_	_
 15	of	of	CCONJ	VG|neven	_	16	cc	_	_
 16	geel	geel	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	14	conj	_	_
-17	”	”	PUNCT	LET	_	14	conj	_	_
+17	”	”	PUNCT	LET	_	14	punct	_	_
 18	papier	papier	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	19	obl	_	_
 19	ôfprinte	ôfprintsje	VERB	WW|vd|vrij|zonder	VerbForm=Part	7	ccomp	_	_
 20	waard	wurde	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	19	aux:pass	_	_
@@ -41770,10 +41770,10 @@
 
 # sent_id = 1904
 # text = 'O,' die ik luchtich.
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	5	punct	_	SpaceAfter=No
 2	O	o	INTJ	TSW	_	4	parataxis	_	SpaceAfter=No
 3	,	,	PUNCT	LET	_	1	punct	_	SpaceAfter=No
-4	'	'	PUNCT	LET	_	0	punct	_	_
+4	'	'	PUNCT	LET	_	5	punct	_	_
 5	die	dwaan	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 6	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	4	nsubj	_	_
 7	luchtich	luchtich	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	4	advmod	_	SpaceAfter=No
@@ -42660,7 +42660,7 @@
 3	is	wêze	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
 4	oanlein	oanlizze	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	_
 5	yn	yn	ADP	VZ|init	_	9	case	_	_
-6	’e	’e	PUNCT	LID|bep|stan|rest	Definite=Def	9	det	_	_
+6	’e	’e	PUNCT	LID|bep|stan|rest	Definite=Def	9	punct	_	_
 7	formele	formeel	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	9	amod	_	_
 8	Frânske	Frânsk	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	9	amod	_	_
 9	styl	styl	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	obl	_	SpaceAfter=No
@@ -43824,14 +43824,14 @@
 11	fan	fan	ADP	VZ|init	_	6	case	_	_
 12	justermiddei	justermiddei	ADV	BW	_	14	obl	_	_
 13	14.15	14.15	NUM	TW|hoofd|vrij	_	6	nmod	_	_
-14	oere	oere	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	7	fixed	_	_
+14	oere	oere	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	6	fixed	_	_
 15	ôf	ôf	ADP	VZ|fin	_	6	case	_	SpaceAfter=No
 16	,	,	PUNCT	LET	_	14	punct	_	_
 17	dat	dat	PRON	VNW|aanw|pron|stan|vol|3o|ev	Person=3|PronType=Dem	14	nsubj	_	_
 18	is	wêze	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	14	cop	_	_
 19	it	it	DET	LID|bep|stan|evon	Definite=Def	14	det	_	_
 20	momint	momint	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	0	root	_	_
-21	dat	dat	SCONJ	VG|onder	_	0	mark	_	_
+21	dat	dat	SCONJ	VG|onder	_	6	mark	_	_
 22	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	21	nsubj	_	_
 23	dy	dy	PRON	VNW|pr|pron|obl|red|2v|getal	Case=Acc|Person=2|PronType=Prs	21	obj	_	_
 24	foar	foar	ADP	VZ|init	_	21	obl	_	_
@@ -44560,7 +44560,7 @@
 
 # sent_id = 1603
 # text = 'Baarn mar los,' die ik nonsjalant as stie ik oeral foar iepen en wie it de gewoanste saak fan ’e wrâld dat ien dy’t twa jier lang neat fan har hearre litten hie, even de aginda opstelde.
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	7	punct	_	SpaceAfter=No
 2	Baarn	baarne	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
 3	mar	mar	CCONJ	BW	_	1	advmod	_	_
 4	los	los	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	1	advmod	_	SpaceAfter=No
@@ -44569,7 +44569,7 @@
 7	die	dwaan	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 8	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	6	nsubj	_	_
 9	nonsjalant	nonsjalant	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	6	advmod	_	_
-10	as	as	SCONJ	VG|onder	_	0	mark	_	_
+10	as	as	SCONJ	VG|onder	_	7	mark	_	_
 11	stie	stean	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	6	advcl	_	_
 12	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	10	nsubj	_	_
 13	oeral	oeral	ADV	VNW|onbep|adv-pron|obl|vol|3o|getal	_	10	advmod	_	_
@@ -44579,27 +44579,27 @@
 17	wie	wêze	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	20	cop	_	_
 18	it	it	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	20	nsubj	_	_
 19	de	de	DET	LID|bep|stan|rest	Definite=Def	20	det	_	_
-20	gewoanste	gewoan	ADJ	ADJ|prenom|sup|met-e|stan	Degree=Sup	0	amod	_	_
+20	gewoanste	gewoan	ADJ	ADJ|prenom|sup|met-e|stan	Degree=Sup	7	amod	_	_
 21	saak	saak	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	10	conj	_	_
 22	fan	fan	ADP	VZ|init	_	23	case	_	_
-23	’e	’e	DET	LID|bep|stan|rest	Definite=Def	0	det	_	_
+23	’e	’e	DET	LID|bep|stan|rest	Definite=Def	7	det	_	_
 24	wrâld	wrâld	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	20	nmod	_	_
 25	dat	dat	SCONJ	VG|onder	_	40	mark	_	_
 26	ien	ien	PRON	VNW|onbep|pron|stan|vol|3p|ev	Person=3|PronType=Ind	40	nsubj	_	_
 27	dy’t	dy’t	PRON	VNW|betr|pron|stan|vol|persoon|getal	PronType=Rel	34	nsubj	_	_
-28	twa	twa	NUM	TW|hoofd|prenom|stan	_	0	nummod	_	_
-29	jier	jier	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	0	obl	_	_
+28	twa	twa	NUM	TW|hoofd|prenom|stan	_	7	nummod	_	_
+29	jier	jier	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	7	obl	_	_
 30	lang	lang	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	34	advmod	_	_
 31	neat	neat	PRON	VNW|onbep|pron|stan|vol|3o|ev	Person=3|PronType=Ind	34	obj	_	_
-32	fan	fan	ADP	VZ|init	_	0	case	_	_
+32	fan	fan	ADP	VZ|init	_	7	case	_	_
 33	har	har	PRON	VNW|refl|pron|obl|red|3|getal	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	34	expl:pv	_	_
-34	hearre	hearre	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	compound:prt	_	_
+34	hearre	hearre	VERB	WW|inf|vrij|zonder	VerbForm=Inf	7	compound:prt	_	_
 35	litten	litte	VERB	WW|inf|vrij|zonder	VerbForm=Inf	25	acl:relcl	_	_
 36	hie	hawwe	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	34	aux	_	SpaceAfter=No
 37	,	,	PUNCT	LET	_	25	punct	_	_
 38	even	even	ADV	BW	_	40	advmod	_	_
-39	de	de	DET	LID|bep|stan|rest	Definite=Def	0	det	_	_
-40	aginda	aginda	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	obj	_	_
+39	de	de	DET	LID|bep|stan|rest	Definite=Def	7	det	_	_
+40	aginda	aginda	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	7	obj	_	_
 41	opstelde	opstelle	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	10	conj	_	SpaceAfter=No
 42	.	.	PUNCT	LET	_	6	punct	_	SpacesAfter=\n
 
@@ -48049,7 +48049,7 @@
 27	acht	acht	NUM	TW|hoofd|prenom|stan	_	28	nummod	_	_
 28	pûnsmieten	pûnsmiet	NOUN	N|soort|mv|basis	Number=Plur	36	iobj	_	_
 29	(	(	PUNCT	LET	_	30	punct	_	SpaceAfter=No
-30	0	0	PUNCT	SPEC|symb	_	4	parataxis	_	_
+30	0	0	PUNCT	SPEC|symb	_	4	punct	_	_
 31	sawat	sawat	ADV	BW	_	33	amod	_	_
 32	trije	trije	NUM	TW|hoofd|prenom|stan	_	33	nummod	_	_
 33	hektare	hektare	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	28	nmod	_	_
@@ -49244,7 +49244,7 @@
 17	wol	wol	ADV	BW	_	19	advmod	_	_
 18	goed	goed	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	19	advmod	_	_
 19	hearre	hearre	VERB	WW|inf|vrij|zonder	VerbForm=Inf	3	conj	_	SpaceAfter=No
-20	?	?	PUNCT	LET	_	0	root	_	_
+20	?	?	PUNCT	LET	_	3	punct	_	_
 
 # sent_id = 2100
 # text = Njonken dizze kursussen fersoarget Tresoar ek iepen poadia yn Teater Romein yn it ramt fan ‘ It Literatuerfabryk ’.
@@ -50617,13 +50617,13 @@
 
 # sent_id = 1806
 # text = 'Kinst der wol ynkomme, der is hjir gjinien.'
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	8	punct	_	SpaceAfter=No
 2	Kinst	kinne	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	der	der	ADV	VNW|aanw|adv-pron|stan|red|3|getal	_	4	advmod	_	_
-4	wol	wol	ADV	BW	_	0	advmod	_	_
+4	wol	wol	ADV	BW	_	8	advmod	_	_
 5	ynkomme	ynkomme	VERB	WW|inf|vrij|zonder	VerbForm=Inf	7	parataxis	_	SpaceAfter=No
 6	,	,	PUNCT	LET	_	4	punct	_	_
-7	der	der	ADV	VNW|aanw|adv-pron|stan|red|3|getal	_	0	advmod	_	_
+7	der	der	ADV	VNW|aanw|adv-pron|stan|red|3|getal	_	8	advmod	_	_
 8	is	wêze	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	hjir	hjir	ADV	VNW|aanw|adv-pron|obl|vol|3o|getal	_	7	advmod	_	_
 10	gjinien	gjinien	PRON	VNW|onbep|pron|stan|vol|3p|ev	Person=3|PronType=Ind	7	nsubj	_	SpaceAfter=No
@@ -52940,7 +52940,7 @@
 6	Frou	frou	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	appos	_	_
 7	mei	mei	ADP	VZ|init	_	6	fixed	_	_
 8	paraplu	paraplu	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	fixed	_	_
-9	’	’	PUNCT	LET	_	6	fixed	_	_
+9	’	’	PUNCT	LET	_	6	punct	_	_
 10	is	wêze	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
 11	skreaun	skriuwe	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	_
 12	mei	mei	ADP	VZ|init	_	14	case	_	_
@@ -53222,19 +53222,19 @@
 
 # sent_id = 285
 # text = 'Mei-inoar ien ' is de titel fan it iepeningsliet dat Syb spesjaal skreaun hat en dat er mei help fan hast 50 koaren repetearje en úteinlik opfiere sil.
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	7	punct	_	SpaceAfter=No
 2	Mei-inoar	mei-inoar	ADV	BW	_	6	nsubj	_	_
 3	ien	ien	NUM	TW|hoofd|vrij	_	1	fixed	_	_
 4	'	'	PUNCT	LET	_	1	punct	_	_
 5	is	wêze	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	6	cop	_	_
-6	de	de	DET	LID|bep|stan|rest	Definite=Def	0	det	_	_
+6	de	de	DET	LID|bep|stan|rest	Definite=Def	7	det	_	_
 7	titel	titel	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	_	_
 8	fan	fan	ADP	VZ|init	_	9	case	_	_
-9	it	it	DET	LID|bep|stan|evon	Definite=Def	0	det	_	_
+9	it	it	DET	LID|bep|stan|evon	Definite=Def	7	det	_	_
 10	iepeningsliet	iepeningsliet	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	6	nmod	_	_
 11	dat	dat	PRON	VNW|betr|pron|stan|vol|3|ev	Person=3|PronType=Rel	13	obj	_	_
 12	Syb	Syb	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	13	nsubj	_	_
-13	spesjaal	spesjaal	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	0	advmod	_	_
+13	spesjaal	spesjaal	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	7	advmod	_	_
 14	skreaun	skriuwe	VERB	WW|vd|vrij|zonder	VerbForm=Part	9	acl:relcl	_	_
 15	hat	hawwe	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	13	aux	_	_
 16	en	en	CCONJ	VG|neven	_	24	cc	_	_
@@ -53244,11 +53244,11 @@
 20	help	help	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	18	fixed	_	_
 21	fan	fan	ADP	VZ|init	_	18	fixed	_	_
 22	hast	hast	ADV	BW	_	23	amod	_	_
-23	50	50	NUM	TW|hoofd|prenom|stan	_	0	nummod	_	_
-24	koaren	koar	NOUN	N|soort|mv|basis	Number=Plur	0	obl	_	_
+23	50	50	NUM	TW|hoofd|prenom|stan	_	7	nummod	_	_
+24	koaren	koar	NOUN	N|soort|mv|basis	Number=Plur	7	obl	_	_
 25	repetearje	repetearje	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	13	conj	_	_
 26	en	en	CCONJ	VG|neven	_	27	cc	_	_
-27	úteinlik	úteinlik	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	0	advmod	_	_
+27	úteinlik	úteinlik	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	7	advmod	_	_
 28	opfiere	opfiere	VERB	WW|inf|vrij|zonder	VerbForm=Inf	24	conj	_	_
 29	sil	sille	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	27	aux	_	SpaceAfter=No
 30	.	.	PUNCT	LET	_	6	punct	_	SpacesAfter=\n
@@ -54325,7 +54325,7 @@
 4	Skiermuontseach	Skiermuontseach	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	nmod	_	_
 5	hiene	hawwe	AUX	WW|pv|verl|mv	Number=Plur|Tense=Past|VerbForm=Fin	15	aux	_	_
 6	yn	yn	ADP	VZ|init	_	11	case	_	_
-7	’e	’e	PUNCT	LID|bep|stan|rest	Definite=Def	11	det	_	_
+7	’e	’e	PUNCT	LID|bep|stan|rest	Definite=Def	11	punct	_	_
 8	santjinde	santjinde	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	11	nmod	_	_
 9	en	en	CCONJ	VG|neven	_	10	cc	_	_
 10	achttjinde	achttjinde	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	8	conj	_	_
@@ -56115,13 +56115,13 @@
 
 # sent_id = 1001
 # text = 'Sieten jimme allebeide net yn it skoalbestjoer?
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
+1	'	'	PUNCT	LET	_	2	punct	_	SpaceAfter=No
 2	Sieten	sitte	VERB	WW|pv|verl|mv	Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
 3	jimme	jimme	PRON	VNW|pers|pron|stan|nadr|2v|mv	Person=2|PronType=Prs	1	nsubj	_	_
 4	allebeide	allebeide	PRON	VNW|onbep|det|stan|vrij|zonder	PronType=Ind	1	obj	_	_
 5	net	net	ADV	BW	_	1	advmod	_	_
 6	yn	yn	ADP	VZ|init	_	7	case	_	_
-7	it	it	DET	LID|bep|stan|evon	Definite=Def	0	det	_	_
+7	it	it	DET	LID|bep|stan|evon	Definite=Def	2	det	_	_
 8	skoalbestjoer	skoalbestjoer	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	1	obl	_	SpaceAfter=No
 9	?	?	PUNCT	LET	_	1	punct	_	_
 
@@ -56238,7 +56238,7 @@
 6	de	de	DET	LID|bep|stan|rest	Definite=Def	7	det	_	_
 7	stúdzjeseal	stúdzjeseal	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	11	nsubj:pass	_	_
 8	Buma	Buma	PROPN	SPEC|deeleigen	_	7	appos	_	_
-9	/	/	PUNCT	LET	_	8	flat	_	_
+9	/	/	PUNCT	LET	_	8	punct	_	_
 10	Fuks	Fuks	PROPN	SPEC|deeleigen	_	8	flat	_	_
 11	ûnderbrocht	ûnderbringe	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	LET	_	11	punct	_	SpacesAfter=\n
@@ -56599,19 +56599,19 @@
 
 # sent_id = 1046
 # text = 'Gretha is der ek, dy kenne jimme fansels wol,' prate Uilkje fleurich troch en doe wienen de folgjende lokwinskers alwer oan bar.
-1	'	'	PUNCT	LET	_	0	root	_	SpaceAfter=No
-2	Gretha	Gretha	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	nsubj	_	_
+1	'	'	PUNCT	LET	_	3	punct	_	SpaceAfter=No
+2	Gretha	Gretha	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	nsubj	_	_
 3	is	wêze	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	der	der	ADV	VNW|aanw|adv-pron|stan|red|3|getal	_	2	advmod	_	_
 5	ek	ek	ADV	BW	_	2	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	LET	_	7	punct	_	_
-7	dy	dy	PRON	VNW|aanw|pron|stan|vol|3|getal	Person=3|PronType=Dem	0	nsubj	_	_
+7	dy	dy	PRON	VNW|aanw|pron|stan|vol|3|getal	Person=3|PronType=Dem	3	nsubj	_	_
 8	kenne	kenne	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 9	jimme	jimme	PRON	VNW|pers|pron|stan|nadr|2v|mv	Person=2|PronType=Prs	7	obj	_	_
 10	fansels	fansels	ADV	ADJ|vrij|basis|zonder	Degree=Pos	7	advmod	_	_
 11	wol	wol	ADV	BW	_	7	advmod	_	SpaceAfter=No
 12	,	,	PUNCT	LET	_	13	punct	_	SpaceAfter=No
-13	'	'	PUNCT	LET	_	0	punct	_	_
+13	'	'	PUNCT	LET	_	3	punct	_	_
 14	prate	prate	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	2	parataxis	_	_
 15	Uilkje	Uilkje	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	13	nsubj	_	_
 16	fleurich	fleurich	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	13	advmod	_	_
@@ -56620,9 +56620,9 @@
 19	doe	doe	ADV	BW	_	24	advmod	_	_
 20	wienen	wêze	AUX	WW|pv|verl|mv	Number=Plur|Tense=Past|VerbForm=Fin	24	cop	_	_
 21	de	de	DET	LID|bep|stan|rest	Definite=Def	22	det	_	_
-22	folgjende	folgje	VERB	WW|od|prenom|met-e	VerbForm=Part	0	amod	_	_
+22	folgjende	folgje	VERB	WW|od|prenom|met-e	VerbForm=Part	3	amod	_	_
 23	lokwinskers	lokwinsker	NOUN	N|soort|mv|basis	Number=Plur	24	nsubj	_	_
-24	alwer	alwer	ADV	BW	_	0	advmod	_	_
+24	alwer	alwer	ADV	BW	_	3	advmod	_	_
 25	oan	oan	ADP	VZ|init	_	2	conj	_	_
 26	bar	bar	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	24	fixed	_	SpaceAfter=No
 27	.	.	PUNCT	LET	_	2	punct	_	SpacesAfter=\n
@@ -57406,7 +57406,7 @@
 5	waard	wurde	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
 6	te	te	ADP	VZ|init	_	7	case	_	_
 7	Grou	Grou	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	12	obl	_	_
-8	‘	‘	PUNCT	LET	_	7	flat	_	_
+8	‘	‘	PUNCT	LET	_	7	punct	_	_
 9	’t	’t	DET	LID|bep|stan|evon	Definite=Def	12	nsubj:pass	_	_
 10	Gild	Gild	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	9	flat	_	_
 11	’	’	PUNCT	LET	_	9	punct	_	_
