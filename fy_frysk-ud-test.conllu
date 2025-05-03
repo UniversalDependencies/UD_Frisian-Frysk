@@ -3686,7 +3686,7 @@
 12	watfoar	watfoar	DET	VNW|onbep|pron|stan|vol|3o|ev	_	13	det	_	_
 13	antwurd	antwurd	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	10	obj	_	_
 14	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	2	nsubj	_	_
-15	jaan	jaan	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	_	_
+15	jaan	jaan	VERB	WW|inf|vrij|zonder	VerbForm=Inf	3	parataxis	_	_
 16	soe	sille	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	2	aux	_	_
 17	op	op	ADP	VZ|init	_	6	case	_	_
 18	syn	syn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
@@ -4398,7 +4398,7 @@
 37	har	har	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	38	nmod:poss	_	_
 38	faam	faam	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	35	nmod	_	_
 39	(	(	PUNCT	LET	_	2	punct	_	_
-40	Hiltsje	Hiltsje	PROPN	SPEC|deeleigen	_	0	root	_	_
+40	Hiltsje	Hiltsje	PROPN	SPEC|deeleigen	_	27	parataxis	_	_
 41	Feenstra	Feenstra	PROPN	SPEC|deeleigen	_	2	flat	_	_
 42	út	út	ADP	VZ|init	_	2	flat	_	_
 43	Wergea	Wergea	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	nmod	_	_
@@ -4490,7 +4490,7 @@
 23	myn	myn	PRON	VNW|bez|det|stan|vol|1|ev|prenom|zonder|agr	Person=1|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
 24	glês	glês	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	21	acl:relcl	_	_
 25	Spa	spa	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	obj	_	_
-26	beethâlde	beethâlde	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	SpaceAfter=No
+26	beethâlde	beethâlde	VERB	WW|vd|vrij|zonder	VerbForm=Part	2	parataxis	_	SpaceAfter=No
 27	.	.	PUNCT	LET	_	2	punct	_	SpacesAfter=\n
 
 # sent_id = 645
@@ -11126,7 +11126,7 @@
 17	lytse	lyts	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	9	amod	_	_
 18	hûndert	hûndert	NUM	TW|hoofd|prenom|stan	_	9	nummod	_	_
 19	talen	taal	NOUN	N|soort|mv|basis	Number=Plur	10	obl	_	_
-20	oerset	oersette	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	SpaceAfter=No
+20	oerset	oersette	VERB	WW|vd|vrij|zonder	VerbForm=Part	9	parataxis	_	SpaceAfter=No
 21	.	.	PUNCT	LET	_	10	punct	_	SpacesAfter=\n
 
 # sent_id = 2912
@@ -13028,7 +13028,7 @@
 20	begjin	begjin	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	17	obl	_	_
 21	fan	fan	ADP	VZ|init	_	16	case	_	_
 22	wurden	wurd	NOUN	N|soort|mv|basis	Number=Plur	14	nmod	_	_
-23	foarkomme	foarkomme	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	_	SpaceAfter=No
+23	foarkomme	foarkomme	VERB	WW|inf|vrij|zonder	VerbForm=Inf	2	parataxis	_	SpaceAfter=No
 24	.	.	PUNCT	LET	_	17	punct	_	SpacesAfter=\n
 
 # sent_id = 1574
@@ -16568,7 +16568,7 @@
 19	net	net	ADV	BW	_	7	advmod	_	_
 20	deselde	deselde	DET	ADJ|prenom|basis|zonder	_	6	nmod	_	_
 21	fout	fout	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	7	obj	_	_
-22	meitsje	meitsje	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	_	_
+22	meitsje	meitsje	VERB	WW|inf|vrij|zonder	VerbForm=Inf	12	parataxis	_	_
 23	as	as	SCONJ	VG|onder	_	9	mark	_	_
 24	Uilkje	Uilkje	PROPN	SPEC|deeleigen	_	5	advcl	_	_
 25	Hoogeweg	Hoogeweg	PROPN	SPEC|deeleigen	_	9	flat	_	_
@@ -18135,7 +18135,7 @@
 29	tige	tige	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	30	advmod	_	_
 30	isolearre	isolearje	VERB	WW|vd|prenom|met-e	VerbForm=Part	31	acl	_	_
 31	havenstedsje	havenstêd	NOUN	N|soort|ev|dim|onz|stan	Gender=Neut|Number=Sing	24	conj	_	_
-32	Hylpen	Hylpen	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	_	_
+32	Hylpen	Hylpen	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	parataxis	_	_
 33	dy’t	dy’t	PRON	VNW|betr|pron|stan|vol|persoon|getal	PronType=Rel	6	nsubj	_	_
 34	wat	wat	PRON	VNW|vb|pron|stan|vol|3o|ev	Person=3|PronType=Int	6	det	_	_
 35	in	in	ADP	LID|onbep|stan|agr	Definite=Ind	6	det	_	_
@@ -23082,14 +23082,14 @@
 20	Fryske	Frysk	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	21	amod	_	_
 21	Beweging	beweging	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	17	nmod	_	SpaceAfter=No
 22	;	;	PUNCT	LET	_	2	punct	_	_
-23	It	It	PROPN	SPEC|deeleigen	_	0	root	_	_
+23	It	It	PROPN	SPEC|deeleigen	_	2	parataxis	_	_
 24	Beaken	Beaken	PROPN	SPEC|deeleigen	_	1	flat	_	_
 25	fan	fan	ADP	VZ|init	_	5	case	_	_
 26	’e	’e	DET	LID|bep|stan|rest	Definite=Def	5	det	_	_
 27	Fryske	Fryske	PROPN	SPEC|deeleigen	_	1	nmod	_	_
 28	Akademy	Akademy	PROPN	SPEC|deeleigen	_	5	flat	_	SpaceAfter=No
 29	;	;	PUNCT	LET	_	1	punct	_	_
-30	Us	Us	PROPN	SPEC|deeleigen	_	0	root	_	_
+30	Us	Us	PROPN	SPEC|deeleigen	_	2	parataxis	_	_
 31	Wurk	Wurk	PROPN	SPEC|deeleigen	_	1	flat	_	_
 32	fan	fan	ADP	VZ|init	_	5	case	_	_
 33	it	it	DET	LID|bep|stan|evon	Definite=Def	5	det	_	_
@@ -23100,7 +23100,7 @@
 38	Ryksuniversiteit	ryksuniversiteit	NOUN	SPEC|deeleigen	_	5	flat	_	_
 39	Grins	Grins	PROPN	SPEC|deeleigen	_	1	flat	_	SpaceAfter=No
 40	;	;	PUNCT	LET	_	1	punct	_	_
-41	De	De	PROPN	SPEC|deeleigen	_	0	root	_	_
+41	De	De	PROPN	SPEC|deeleigen	_	2	parataxis	_	_
 42	Frijbûtser	Frijbûtser	PROPN	SPEC|deeleigen	_	1	flat	_	SpaceAfter=No
 43	,	,	PUNCT	LET	_	6	punct	_	_
 44	fan	fan	ADP	VZ|init	_	6	case	_	_
@@ -24177,7 +24177,7 @@
 17	taalnoarm	taalnoarm	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	conj	_	_
 18	oer	oer	ADP	VZ|fin	_	8	compound:prt	_	_
 19	te	te	ADP	VZ|init	_	8	mark	_	_
-20	dragen	drage	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	_	SpaceAfter=No
+20	dragen	drage	VERB	WW|inf|vrij|zonder	VerbForm=Inf	10	parataxis	_	SpaceAfter=No
 21	,	,	PUNCT	LET	_	13	punct	_	_
 22	en	en	CCONJ	VG|neven	_	13	cc	_	_
 23	de	de	DET	LID|bep|stan|rest	Definite=Def	12	det	_	_
@@ -26251,7 +26251,7 @@
 27	even	even	ADV	BW	_	26	advmod	_	_
 28	op	op	ADP	VZ|fin	_	25	compound:prt	_	_
 29	skuldich	skuldich	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	26	xcomp	_	_
-30	bliuwe	bliuwe	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	_	SpaceAfter=No
+30	bliuwe	bliuwe	VERB	WW|inf|vrij|zonder	VerbForm=Inf	2	parataxis	_	SpaceAfter=No
 31	,	,	PUNCT	LET	_	28	punct	_	_
 32	man	man	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	26	parataxis	_	_
 33	mei	mei	ADP	VZ|init	_	31	case	_	_
@@ -26309,7 +26309,7 @@
 38	’e	’e	DET	LID|bep|stan|rest	Definite=Def	39	det	_	_
 39	wurden	wurd	NOUN	N|soort|mv|basis	Number=Plur	36	obl	_	_
 40	"	"	PUNCT	LET	_	2	punct	_	_
-41	Ferlos	ferlosse	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	_
+41	Ferlos	ferlosse	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
 42	my	my	PRON	VNW|pr|pron|obl|vol|1|ev	Case=Acc|Person=1|PronType=Prs	2	obj	_	SpaceAfter=No
 43	,	,	PUNCT	LET	_	5	punct	_	_
 44	help	helpe	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
@@ -26830,7 +26830,7 @@
 44	der	der	PROPN	SPEC|deeleigen	_	41	flat	_	_
 45	Meulen	Meulen	PROPN	SPEC|deeleigen	_	41	flat	_	_
 46	(	(	PUNCT	LET	_	14	punct	_	_
-47	1824	1824	NUM	TW|hoofd|vrij	_	0	root	_	_
+47	1824	1824	NUM	TW|hoofd|vrij	_	14	parataxis	_	_
 48	-	-	PUNCT	LET	_	3	punct	_	_
 49	1906	1906	NUM	TW|hoofd|vrij	_	1	conj	_	_
 50	)	)	PUNCT	LET	_	1	punct	_	SpaceAfter=No
@@ -35012,7 +35012,7 @@
 4	dat	dat	PRON	VNW|aanw|pron|stan|vol|3o|ev	Person=3|PronType=Dem	0	root	_	_
 5	...	…	PUNCT	LET	_	4	punct	_	SpaceAfter=No
 6	'	'	PUNCT	LET	_	4	punct	_	_
-7	liigde	lige	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	liigde	lige	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 8	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	1	nsubj	_	_
 9	en	en	CCONJ	VG|neven	_	4	cc	_	_
 10	besocht	besykje	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	1	conj	_	_
@@ -40106,7 +40106,7 @@
 1	Dy	dy	PRON	VNW|aanw|det|stan|prenom|zonder|rest	_	2	det	_	_
 2	biet	bite	VERB	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	obj	_	_
 3	ôfrûne	ôfrinne	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	_
-4	tiisdei	tiisdei	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	_	_
+4	tiisdei	tiisdei	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	parataxis	_	_
 5	syn	syn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
 6	baas	baas	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	1	parataxis	_	_
 7	in	in	DET	LID|onbep|stan|agr	Definite=Ind	5	det	_	_
@@ -40395,7 +40395,7 @@
 14	yn	yn	ADP	VZ|init	_	6	case	_	_
 15	2004	2004	NUM	TW|hoofd|vrij	_	8	obl	_	_
 16	foar	foar	ADP	VZ|fin	_	6	case	_	_
-17	soarge	soargje	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	_
+17	soarge	soargje	VERB	WW|vd|vrij|zonder	VerbForm=Part	2	parataxis	_	_
 18	dat	dat	SCONJ	VG|onder	_	20	mark	_	_
 19	it	it	DET	LID|bep|stan|evon	Definite=Def	11	det	_	_
 20	Lieteboek	lieteboek	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	2	nsubj	_	_
@@ -43830,7 +43830,7 @@
 17	dat	dat	PRON	VNW|aanw|pron|stan|vol|3o|ev	Person=3|PronType=Dem	14	nsubj	_	_
 18	is	wêze	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	14	cop	_	_
 19	it	it	DET	LID|bep|stan|evon	Definite=Def	14	det	_	_
-20	momint	momint	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	0	root	_	_
+20	momint	momint	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	6	parataxis	_	_
 21	dat	dat	SCONJ	VG|onder	_	6	mark	_	_
 22	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	21	nsubj	_	_
 23	dy	dy	PRON	VNW|pr|pron|obl|red|2v|getal	Case=Acc|Person=2|PronType=Prs	21	obj	_	_
@@ -45245,7 +45245,7 @@
 46	ynwenners	ynwenner	NOUN	N|soort|mv|basis	Number=Plur	37	nsubj	_	_
 47	fan	fan	ADP	VZ|init	_	48	case	_	_
 48	bygelyks	bygelyks	ADV	BW	_	3	obl	_	_
-49	Wergea	Wergea	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	_	_
+49	Wergea	Wergea	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	parataxis	_	_
 50	wol	wol	ADV	BW	_	1	amod	_	_
 51	en	en	CCONJ	VG|neven	_	4	cc	_	_
 52	dy	dy	PRON	VNW|aanw|pron|stan|vol|3|getal	Person=3|PronType=Dem	1	conj	_	_
@@ -50317,7 +50317,7 @@
 18	fan	fan	ADP	VZ|init	_	19	case	_	_
 19	Gellius	Gellius	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	17	nmod	_	_
 20	’	’	PUNCT	LET	_	3	punct	_	_
-21	Noctes	Noctes	PROPN	SPEC|deeleigen	_	0	root	_	_
+21	Noctes	Noctes	PROPN	SPEC|deeleigen	_	3	parataxis	_	_
 22	Atticae	Atticae	PROPN	SPEC|deeleigen	_	1	flat	_	_
 23	(	(	PUNCT	LET	_	5	punct	_	_
 24	de	de	DET	LID|bep|stan|rest	Definite=Def	5	det	_	_
@@ -55588,7 +55588,7 @@
 4	it	it	DET	LID|bep|stan|evon	Definite=Def	5	det	_	_
 5	beliedsplan	beliedsplan	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	2	obl	_	_
 6	'	'	PUNCT	LET	_	2	punct	_	_
-7	In	In	PROPN	SPEC|deeleigen	_	0	root	_	_
+7	In	In	PROPN	SPEC|deeleigen	_	2	parataxis	_	_
 8	nije	nije	PROPN	SPEC|deeleigen	_	2	flat	_	_
 9	Dei	Dei	PROPN	SPEC|deeleigen	_	2	flat	_	_
 10	'	'	PUNCT	LET	_	2	punct	_	_
@@ -59667,7 +59667,7 @@
 14	:	:	PUNCT	LET	_	4	punct	_	_
 15	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	4	nsubj	_	_
 16	wie	wêze	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	4	cop	_	_
-17	mem	mem	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	_	_
+17	mem	mem	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	parataxis	_	_
 18	fan	fan	ADP	VZ|init	_	6	case	_	_
 19	Jesse	Jesse	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	nmod	_	_
 20	en	en	CCONJ	VG|neven	_	8	cc	_	_
